@@ -1,4 +1,4 @@
-import 'package:eval_front/constants/constants.dart';
+import 'package:eval_front/constants/style.dart';
 import 'package:eval_front/helpers/responsive.dart';
 import 'package:eval_front/widgets/footer.dart';
 import 'package:eval_front/widgets/large_screen.dart';

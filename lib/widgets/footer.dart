@@ -1,4 +1,4 @@
-import 'package:eval_front/constants/constants.dart';
+import 'package:eval_front/constants/style.dart';
 import 'package:flutter/material.dart';
 
 class Footer extends StatelessWidget {
