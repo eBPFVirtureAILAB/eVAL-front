@@ -34,10 +34,7 @@ class EvalApp extends StatelessWidget {
                   decoration: BoxDecoration(
                     border: Border.all(color: Color(0xFFC66AFF), width: 1),
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: IDEScreen(),
-                  ),
+                  child: IDEScreen(),
                 ),
               ),
             ),
