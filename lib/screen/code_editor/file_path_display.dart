@@ -21,6 +21,7 @@ class FilePathDisplay extends StatelessWidget {
               CustomTab(
                 label: 'hello-func.bpf.c',
                 isSelected: tabController.index == 0,
+                isFirst: true,
               ),
               CustomTab(
                 label: 'hello.bpf.c',
@@ -36,6 +37,7 @@ class FilePathDisplay extends StatelessWidget {
             ),
             labelColor: Colors.white,
             unselectedLabelColor: Colors.grey,
+            labelPadding: EdgeInsets.zero,
           ),
         ),
         // 파일 경로 표시
