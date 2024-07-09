@@ -29,16 +29,12 @@ class EvalApp extends StatelessWidget {
             ),
             Expanded(
               child: Padding(
-                padding: const EdgeInsets.all(16.0),
+                padding: const EdgeInsets.all(8.0),
                 child: Container(
                   decoration: BoxDecoration(
                     border: Border.all(color: Color(0xFFC66AFF), width: 1),
-                    borderRadius: BorderRadius.circular(8),
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: IDEScreen(),
-                  ),
+                  child: IDEScreen(),
                 ),
               ),
             ),
